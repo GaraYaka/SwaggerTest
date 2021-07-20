@@ -44,7 +44,7 @@ namespace SwaggerTest.Controllers
         [HttpPost("TestServiceCall")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public ActionResult<UserModel> TestServiceCall(UserModel user)
+        public ActionResult<UserMsodel> TestServiceCall(UserModel user)
         {
             user.Id = 15425;
 
