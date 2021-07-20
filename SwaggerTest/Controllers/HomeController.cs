@@ -46,7 +46,7 @@ namespace SwaggerTest.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult<UserModel> TestServiceCall(UserModel user)
         {
-            user.Id = 1542;
+            user.Id = 15425;
 
             return user;// CreatedAtRoute("Object", new { id = user.Id }, user);
         }
